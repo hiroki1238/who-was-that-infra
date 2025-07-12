@@ -1,0 +1,71 @@
+# Cursor Rules for who-was-that-client
+
+## Language and Framework
+
+- Use TypeScript 5+ for type safety
+- Follow Next.js 15+ best practices and conventions
+- Use React 19+ functional components and hooks
+- Prefer server components when possible
+- Use App Router for routing
+
+## Code Style
+
+- Use Prettier for code formatting
+- Follow ESLint rules for code quality
+- Use meaningful component and function names
+- Use TypeScript interfaces for prop types
+- Follow React naming conventions (PascalCase for components)
+
+## Project Structure
+
+- Follow Next.js App Router structure
+- Keep components in src/components/
+- Use feature-based organization
+- Separate UI components from business logic
+- Use custom hooks for reusable logic
+
+## State Management
+
+- Use Redux Toolkit for global state
+- Use React hooks for local state
+- Minimize global state usage
+- Use proper TypeScript types for state
+
+## Styling
+
+- Use Tailwind CSS 4+ for styling
+- Follow mobile-first responsive design
+- Use CSS modules for component-specific styles
+- Maintain consistent design system
+- Use semantic HTML elements
+
+## Performance
+
+- Optimize images with Next.js Image component
+- Use proper loading states
+- Implement code splitting
+- Use React.memo for expensive components
+- Avoid unnecessary re-renders
+
+## Testing
+
+- Write unit tests with Jest
+- Use React Testing Library for component tests
+- Test user interactions and edge cases
+- Maintain high test coverage
+- Use Storybook for component documentation
+
+## AWS Integration
+
+- Use AWS Amplify for backend integration
+- Handle authentication with AWS Cognito
+- Implement proper error handling for AWS services
+- Use TypeScript types for AWS responses
+
+## Documentation
+
+- Document complex components and hooks
+- Use JSDoc for function documentation
+- Keep README.md updated
+- Include examples in Storybook
+- Document API integration patterns
